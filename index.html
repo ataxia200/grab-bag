@@ -106,7 +106,7 @@ select:focus-visible{outline:3px solid var(--berry);outline-offset:2px}
       </div>
     </div>
     <p class="hint">This device remembers your match, so you can come back to check it.</p>
-    <button class="ghost" id="resetBtn">Reset</button>
+    <!--<button class="ghost" id="resetBtn">Reset</button>-->
   </section>
 
   <section id="organizer" class="hidden">
@@ -127,12 +127,14 @@ const NAMES = [
   "Ellen",
   "Jim S",
   "Amanda",
-  "Marzia"
+  "Marzia",
+  "Stacey",
+  "Jim B"
 ];
 // Change this word to redraw everyone with new pairs.
 const DRAW_CODE = "christmas-2026";
 // Spending limit shown with each match. Leave as "" to hide it.
-const BUDGET = "$25";
+const BUDGET = "$10-$15 - Can do simple gift cards [gas, grocery, starbucks, dunkin', etc.] ";
 /* ==================================================== */
 
 const $ = id => document.getElementById(id);
